@@ -1,4 +1,36 @@
 body{
     background-image: linear-gradient(to right, rgba(47,11,23,1), rgba(110,45,66,1));
+}
 
+.container{
+    max-width: 1480px;
+    margin: auto;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fdf9f3;
+    position: fixed;
+    top: 0;
+    width: 80%;
+}
+
+li{
+    display: inline;
+    float: left;
+}
+
+.aNavbar{
+    display: block;
+    padding: 14px 16px;
+    transition: 0.43s ease;
+}
+
+.aNavbar:hover{
+    background-color: #faebd7;
+    transition: 0.43s ease;
 }
